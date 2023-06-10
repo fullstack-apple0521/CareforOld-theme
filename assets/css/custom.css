@@ -1,0 +1,135 @@
+.fee{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff8900;
+    letter-spacing: 0.15em;
+    height: 100%;
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.fee_table_title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    margin: 10px 0;
+}
+
+.fee_table_task{
+    font-size: 18px!important;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    color: #0091e6!important;
+    height: 100%;
+}
+
+.fee_table_category{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff8900;
+    letter-spacing: 0.15em;
+    margin: 10px 0;
+    padding-bottom: 20px!important;
+}
+
+.theory_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px;
+}
+
+@media (max-width: 768px) {
+    .theory_img{
+        padding: 4vw 0 0;
+    }
+}
+
+.theory_img2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.theory_img2 img{
+    width: 70%;
+    margin: 40px 0!important;
+}
+
+@media (max-width: 768px) {
+    .theory_img2 img{
+        width: 100%;
+    }
+}
+
+.small_title{
+    color: #ff8900;
+    letter-spacing: 0.15rem;
+    margin: 10px 0;
+}
+
+.bl_shintaku_list:last-child{
+    margin-bottom: 40px;
+}
+
+.bl_shintaku_content{
+    display: flex;
+    gap: 0 30px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.bl_shintaku_content img{
+    width: 100px;
+    height: fit-content;
+}
+
+.q_ans_show{
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #0096e0;
+    border-right: 3px solid #0096e0;
+    rotate: 45deg;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .q_ans_show{
+        width: 10px;
+        height: 10px;
+        right: 4vw;
+        top: 4.5vw;
+    }
+}
+
+.q_ans_content{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 70px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .q_ans_content{
+        font-size: 2.6vw!important;
+        margin: 0!important;
+    }
+}
+
+#top_fixed .cm_bl01 .wrap ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second_fixed .cm_bl01 .wrap ul{
+    display: flex;
+    justify-content: space-between;
+}
