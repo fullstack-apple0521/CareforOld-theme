@@ -31,7 +31,7 @@ get_header();
                         <h6>②無料相談を希望の方は「無料相談」にチェックをいただき、ご来所希望日を第3希望日までお問い合わせ内容にご記入ください。</h6>
                         <h6>③その他のお問い合わせをご希望されるかたは「その他お問い合わせ」にチェックを入れていただき、お問い合わせ内容にご記入ください。</h6>
 
-                        <?php echo do_shortcode( '[contact-form-7 id="17" title="Contact form 1"]' ); ?>
+                        <?php echo do_shortcode( '[contact-form-7 id="19" title="コンタクトフォーム 1"]' ); ?>
                         
                         <div class="bl_free">
                             <div id="child_contact" class="wrap">
