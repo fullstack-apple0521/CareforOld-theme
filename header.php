@@ -21,6 +21,7 @@
         <!-- End Google Tag Manager -->
         <meta name="format-detection" content="telephone=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <!-- All in One SEO 4.1.0.3 -->
         <title>神戸、芦屋家族信託・相続サポートセンター | 神戸市東灘区、芦屋市で相続、家族信託に関するお悩み、ご相談なら芦屋家族信託・相続サポートセンターにお任せ下さい。大阪 神戸 西宮 尼崎</title>

@@ -452,6 +452,7 @@ get_header();
     <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?ver=6.2.2' id='jquery-js'></script>
 
     <script>
+
         // グロナビ固定
         $(document).ready( function() {
             $( window ).scroll( function () {  

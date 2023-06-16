@@ -43,7 +43,7 @@
         <script>
 			$(document).ready(function(){
                 
-			const d_width = window.innerWidth;
+			const d_width = $(window).width(); console.log(d_width)
 			
 			if(d_width < 768) {
 				$("#header").append(

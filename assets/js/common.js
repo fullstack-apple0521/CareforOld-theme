@@ -62,22 +62,6 @@ $(function(){
         });
 });
 
-//フローティング　PC　CSS 　勝手に高さ合わせて固定
-$(document).ready( function() {
-    $( window ).scroll( function () {
-        const d_width = window.innerWidth;
-        if( d_width > 768 ) {
-            var offset = $( '#gn' ).offset();
-            if( $( window ).scrollTop() > offset.top ) {
-                $( '#gn' ).addClass( 'fixed' );
-                
-            } else {
-                $( '#gn' ).removeClass( 'fixed' );
-            }
-        }
-    } );
-    
-} );
 
 //accordion
 $(function(){
